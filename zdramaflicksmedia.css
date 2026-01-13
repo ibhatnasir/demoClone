@@ -175,8 +175,18 @@
 }
 
 .imgCnt{
- padding: 2px;
-margin-top:0px;
+    padding: 2px;
+    margin-top: 0px;
+    height: 300px;
+    width: 250px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.imgCnt img{
+   width: 225px;
+    height: 280px;
 }
 
 
