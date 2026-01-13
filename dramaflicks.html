@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drama Flicks</title>
+    <link rel="stylesheet" href="dramaflicks.css" />
+    <link rel="stylesheet" href="dramaflicksmedia.css" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="fonts.googleapis.com" rel="stylesheet">
+
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+/>
+
+
+
+
+  </head>
+
+  <body>
+    <header>
+      <div class="navBar">
+        <div class="logoImg">
+          <img src="Assets/Logo_new.webp" alt="Logo" />
+        </div>
+
+        <div class="navLinks hideOnMobile">
+          <ul >
+            <li class="hideOnMobile"><a href="#">Watch Now</a></li>
+            <li class="hideOnMobile"><a href="#">Continue Watiching</a></li>
+            <li class="hideOnMobile"><a href="#">Saved List</a></li>
+            <li class="hideOnMobile"><a href="#">Premium</a></li>
+
+          </ul>
+          
+        </div>
+
+        <div class="navBtns ">
+          <button class="find"><img src="Assets/megGlass.png" /></button>
+
+          <span class="hideOnMobile btnsHideOnMobile">
+
+            <button class="navbtn , hideOnMobile" id="loginBtn">
+              <img src="Assets/Group 54979.png" /> Log In
+            </button>
+            
+            <button class="navbtn , hideOnMobile" id="getAppBtn">Get App</button>
+          </span>
+
+          <span id="manuBtn" onclick="showSidebar()"><i class="fa-solid fa-bars"></i></span>
+        </div>
+      </div>
+
+      <!-- nav side bar -->
+      <div class="sideBarContainer">
+      
+       <div class="sideNavBar" id="sideNavBar">
+          <ul>
+            <span id="closeBtn" onclick="hideSidebar()"><i class="fa-solid fa-angle-right"></i></span>
+            <li><a href="#">Watch Now</a></li>
+            <li><a href="#">Continue Watiching</a></li>
+            <li><a href="#">Saved List</a></li>
+            <li><a href="#">Premium</a></li>
+
+          </ul>
+          
+        </div>
+        <div class="btnsContainer">
+
+          <div class="navBtns">
+            <button class="navbtn" id="loginBtn">
+              <img src="Assets/Group 54979.png" /> Log In
+            </button>
+          </div>
+          <div>
+  
+            <button class="navbtn" id="getAppBtn">Get App</button>
+          </div>
+        </div>
+      </div>
+        <!-- // nav side bar end -->
+
+      <section class="heroSection">
+        <div class="heroSectionContainer">
+          <img class="heroImg" src="Assets/banner.webp" alt="Banner" />
+
+          <div class="tagline">
+            <h1>
+              Binge-Worthy Drama,
+              <span>Anytime, Anywhere</span>
+            </h1>
+          </div>
+
+        </div>
+      </section>
+    </header>
+
+    <section class="section2main">
+        <div class="section2">
+        <div class="section2Heading">
+          <h2>DramaFlicks</h2>
+          <p>
+            Discover a world of short dramas that keep you hooked from the very
+            first second.
+          </p>
+        </div>
+
+        <div class="section2Container">
+          <div class="section2leftContainer">
+            <div id="contentTop" class="contentStyle">
+              <h3>Bite-Sized Entertainment</h3>
+              <p>1-2 min episodes, perfect for quick binge sessions.</p>
+            </div>
+            <div id="contentBottom" class="contentStyle">
+              <h3>Thrilling Storylines</h3>
+              <p>Love, betrayal, secrets, and unexpected twists.</p>
+            </div>
+          </div>
+
+          <div class="section2midContainer">
+            <!-- <img src="Assets/section2midImg.webp" /> -->
+          </div>
+
+          <div class="section2rightContainer">
+            <div id="contentTop" class="contentStyle">
+              <h3>Seamless Streaming</h3>
+              <p>Watch in high quality without interruptions.</p>
+            </div>
+            <div id="contentMid" class="contentStyle">
+              <h3>Curated for You</h3>
+              <p>Discover dramas made for you.</p>
+            </div>
+            <div id="contentBottom" class="contentStyle">
+              <h3>Stream on the go</h3>
+              <p>Watch dramas, anytime, anywhere.</p>
+            </div>
+          </div>
+        </div>
+         
+        <!-- coming soon section -->
+
+        <div class="comingSoonSection">
+          <div   class="comingSoonHeading">
+          <h1>Coming Soons...</h1>
+          </div>
+          <div class="comingSoonCards">
+            
+            <div class="comingDramaCard " >
+              <img class="cardsImg" src="Assets/BloodContract_new.jpg" />
+            </div>
+            <div class="comingDramaCard " >
+              <img class="cardsImg" src="Assets/BloodContract_new.jpg" />
+            </div>
+            <div class="comingDramaCard " >
+              <img class="cardsImg" src="Assets/BloodContract_new.jpg" />
+            </div>
+          </div>
+        </div>
+    </section>
+
+        <!-- <div class="scrollUp">
+          <img src="Assets/scroll Up.png" >
+        </div> -->
+
+       <!-- Drama cards section ... -->
+
+      <div class="dramaCardsSection">
+        <div class="dramaCardsContainer1">
+          <div class="heading">
+            <h2>Popular Dramas</h2>
+          </div>
+
+          <div>
+          <!-- side scroll -->
+         <span class="sideScrollLeft"><img src="Assets/side scroll black.png" ></span>
+          
+          <div class="dramaCardsRow">
+
+            <div class="dramaCard">
+              <img class="cardsImg" src="Assets/BloodContract_new.jpg" />
+              <h3>Blood Contract</h3>
+            </div>
+            <div class="dramaCard">
+              <img class="cardsImg" src="Assets/Crown_new.jpg" />
+              <h3>The Crown</h3>
+            </div>
+            <div class="dramaCard">
+              <img class="cardsImg" src="Assets/Hidden-Agenda_new.jpg" />
+              <h3>Hidden Agenda</h3>
+            </div>
+            <div class="dramaCard">
+              <img class="cardsImg" src="Assets/Mysterious_Murder_new.jpg" />
+              <h3>Mysterious Muder</h3>
+            </div>
+            <div class="dramaCard">
+              <img class="cardsImg" src="Assets/Crown_new.jpg" />
+              <h3>The Crown</h3>
+            </div>
+            <div class="dramaCard">
+              <img class="cardsImg" src="Assets/Hidden-Agenda_new.jpg" />
+              <h3>Hidden Agenda</h3>
+            </div>
+            <div class="dramaCard">
+              <img class="cardsImg" src="Assets/Mysterious_Murder_new.jpg" />
+              <h3>Mysterious Muder</h3>
+            </div>
+            
+            <div class="dramaCard">
+              <img class="cardsImg" src="Assets/35_new.jpg" />
+              <h3>Blood Contract</h3>
+            </div>
+
+            <div class="dramaCard">
+              <img class="cardsImg" src="Assets/BloodContract_new.jpg" />
+              <h3>Blood Contract</h3>
+            </div>
+            <div class="dramaCard">
+              <img class="cardsImg" src="Assets/Crown_new.jpg" />
+              <h3>The Crown</h3>
+            </div>
+          </div>
+          <!-- side scroll -->
+          <span class="sideScrollRight"><img src="Assets/side scroll red.png" ></span>
+        </div>
+        </div>
+
+        <div class="dramaCardsContainer2">
+
+          <div class="exploreHeading">
+            <h2 class="collectionHidden">Explore Full Collection</h2>
+            <h2 class="mobileView">Explore</h2>
+            <button>View All</button>
+          </div>
+
+          <div class="dramaCardsRow">
+
+
+            <div class="dramaCard">
+              <img class="cardsImg" src="Assets/BloodContract_new.jpg" />
+              <h3>Blood Contract</h3>
+            </div>
+            <div class="dramaCard">
+              <img class="cardsImg" src="Assets/Crown_new.jpg" />
+              <h3>The Crown</h3>
+            </div>
+            <div class="dramaCard">
+              <img class="cardsImg" src="Assets/Hidden-Agenda_new.jpg" />
+              <h3>Hidden Agenda</h3>
+            </div>
+            <div class="dramaCard">
+              <img class="cardsImg" src="Assets/Mysterious_Murder_new.jpg" />
+              <h3>Mysterious Muder</h3>
+            </div>
+            <div class="dramaCard">
+              <img class="cardsImg" src="Assets/35_new.jpg" />
+              <h3>Blood Contract</h3>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+
+      <div class="section3">
+        <div class="textContainer">
+          <h3>Start Watching</h3>
+          <p>Download DramaFlicks and start your journey into gripping storytelling today!</p>
+          <div class="svg">
+            <div class="svg2">
+              <img src="Assets/play store.png" >
+            </div>
+            <div class="svg1">
+              <img src="Assets/app store.png" >
+            </div>
+          </div>
+        </div>
+        <div class="imgRight">
+          <img  src="Assets/watchDramaFlicks.webp">
+        </div>
+      </div>
+
+      <div class="aboutSection">
+
+        <div class="aboutContainer">
+
+          <div class="imgCnt">
+          <img src="Assets/aboutDrama.webp" alt="">
+         </div>
+
+         <div class="aboutText">
+           <h2>About DramaFlicks</h2>
+           <p>DramaFlicks brings you the best short drama series, perfect for quick entertainment anytime, anywhere. Dive into captivating stories, binge-watch in minutes, and enjoy seamless streaming on the go. Whether you're into romance, thrillers, or suspenseful twists, DramaFlicks has a growing collection of gripping stories to keep you hooked.</p>
+         </div>
+
+        </div>
+      </div>
+
+      
+    </main>
+    <!-- footer section... -->
+    <footer>
+      <div class="footerSection">
+
+        <div class="footerContent">
+          <div class="footerLogo">
+            <img src="Assets/Logo_new.webp" >
+          </div>
+
+          <div class="iconBtns">
+            <button><img src="Assets/facebook.png"></button>
+            <button><img src="Assets/insta.png"></button>
+            <button><img src="Assets/yt.png"></i></button>
+           
+          </div>
+
+          <div class="footerText">
+            <p>Where every tap unlocks twists, emotions, and wild storylines. <br> DramaFlicks is your fast-track to bingeable drama.</p>
+          </div>
+
+          <br> <br> 
+
+          <hr>
+          <br>
+
+          <div class="copyRight">
+            <p>Copyright © 2025 <p2>AppSmartz</p2>. All rights reserved.</p>
+          <p>Privacy Policy | Terms of Use</p>
+          </div>
+          
+        </div>
+
+      </div>
+    </footer>
+
+    <script src="dramaflicks.js"></script>
+  </body>
+</html>

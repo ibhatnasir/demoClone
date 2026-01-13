@@ -1,0 +1,194 @@
+@media (max-width:800px) {
+    .hideOnMobile {
+        display: none;
+        width: 0;
+    }
+
+    .navBar{
+        justify-content: space-between;
+    }
+
+    .navBtns{
+        gap: 10px;
+        margin-right: 20px;
+    }
+
+    .logoImg img{
+        width: 120px;
+        height: auto;
+        
+    }
+
+    .sideScrollRight, .sideScrollLeft {
+        display: none;
+    }
+
+    
+ 
+}
+
+@media (max-width:450px) {
+
+    .hideOnMobile {
+        display: none;
+        width: 0;
+    }
+
+    .collectionHidden{
+        display: none;
+    }
+
+    .mobileView{
+        display: block;
+    }
+
+    .navBar{
+        width: 100%;
+        height: 40px;
+        justify-content: space-between;
+    }
+
+    .navBtns{
+        gap: 10px;
+        margin-right: 20px;
+    }
+
+    .logoImg img{
+        width: 120px;
+        height: auto;
+        
+    }
+
+    .sideScrollRight, .sideScrollLeft {
+        display: none;
+    }
+
+    .sideBarContainer{
+        width: 80%;
+    }
+
+    .navBtns{
+        gap: 5px;
+        margin-right: 10px;
+    }
+
+    .logoImg img{
+        width: 100px;
+        height: auto;
+        
+    }
+
+    .heroImg{
+        height: 400px;
+
+    }
+
+    .tagline{
+        left: 20px;
+        width: 80%;
+        top: 160px;
+
+    }
+
+    .tagline h1{
+        font-size: 25px;
+        line-height: 45px;
+
+    }
+
+    .section3{
+        flex-direction: column-reverse;
+        align-items: center;
+        padding-bottom: 50px;
+    }
+
+    .textContainer{
+        margin-left: 10px;
+    }
+    .textContainer h3{
+        font-size: 20px;
+    }
+
+    .textContainer p{
+        font-size: 16px;
+        overflow: hidden;
+    }
+    
+.svg1 img,
+.svg2 img {
+  height: 50px;
+  width: 150px;
+}
+
+.imgRight img {
+  height: 300px;
+  width: 240px;
+
+
+}
+
+.aboutSection {
+    padding: 15px;
+    
+    overflow: hidden;
+}
+
+.aboutContainer{
+    gap: 15px;
+    flex-direction: column;
+}
+
+.aboutText{
+    margin-left: 0;
+    width: 300px;
+
+}
+}
+.aboutContainer h2{
+    font-size: 24px;
+
+}
+
+.aboutContainer p{
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.footerText{
+    font-size: 16px;
+    width: 60%;
+    text-align: center;
+}
+
+.copyRight{
+    font-size: 14px;
+    gap: 200px;
+}
+
+.dramaCardsSection{
+    padding: 10px 20px;
+}
+
+.heading {
+    margin-top: 25px;
+}
+
+.imgCnt{
+ padding: 2px;
+margin-top:0px;
+}
+
+
+.section2Heading{
+    flex-wrap: wrap;
+}
+
+@media (min-width:800px) {
+       #manuBtn {
+        display: none;
+    }
+
+      .mobileView{
+        display: none;
+    }
+}
