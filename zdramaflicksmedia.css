@@ -144,7 +144,7 @@
     width: 300px;
 
 }
-}
+
 .aboutContainer h2{
     font-size: 24px;
 
@@ -185,13 +185,15 @@
 }
 
 .imgCnt img{
-   width: 225px;
+    width: 225px;
     height: 280px;
 }
 
 
 .section2Heading{
     flex-wrap: wrap;
+}
+
 }
 
 @media (min-width:800px) {
