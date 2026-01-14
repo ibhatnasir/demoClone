@@ -97,6 +97,11 @@
 
     }
 
+    .dramaCard img {
+        height:255px;
+        width: 170px;
+    }
+
     .section3{
         flex-direction: column-reverse;
         align-items: flex-start;
@@ -108,7 +113,7 @@
         margin-left: 10px;
     }
     .textContainer h3{
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .textContainer p{
@@ -171,8 +176,18 @@
     padding: 10px 20px;
 }
 
+.dramaCard h3 {
+        font-size: 16px;
+    padding-left: 5px;
+}
+
 .heading {
     margin-top: 25px;
+     font-size: 16px;
+}
+
+.exploreHeading {
+    font-size: 17px;
 }
 
 .imgCnt{
