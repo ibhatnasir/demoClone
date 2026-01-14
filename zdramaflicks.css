@@ -333,6 +333,41 @@ body {
   }
 }
 
+/* mobileView adjustments section2 */
+
+.section2Mobile{
+  background-color: #0f0f0f;
+  padding: 15px;
+  display: none;
+}
+
+
+.section2HeadingMobile h2{
+  font-size: 22px;
+  line-height: 36.34px;
+  text-align: center;
+  font-family: "Alatsi", sans-serif;
+}
+
+.section2HeadingMobile p{
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  padding: 18px 0px;
+}
+
+.contentStyleMobile h3{
+  font-size: 15px;
+  font-family: "Alatsi", sans-serif;
+  padding-top: 15px ;
+}
+
+.contentStyleMobile p{
+  font-size: 14px;
+  line-height: 1.4;
+  font-family: "Inter", sans-serif;
+  color: #a0a1a8;
+}
+
 /* coming soon cards section */
 
 .comingSoonSection {
@@ -341,7 +376,7 @@ body {
 
 .comingSoonHeading {
   font-family: "Alatsi", sans-serif;
-  font-weight: 400;
+  font-weight:400;
   margin-left: 15px;
   font-size: 15px;
 }

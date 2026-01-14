@@ -89,6 +89,26 @@
     line-height: 45px;
   }
 
+  .section2Heading h2 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 10.34px;
+    letter-spacing: 4.77px;
+  
+}
+
+.section2Mobile{
+  display: block;
+}
+
+.section2Container{
+    display: none;
+}
+
+.section2Heading{
+    display: none;
+}
+
   .comingSoonSection {
     padding: 20px;
 }
@@ -223,4 +243,7 @@
   .mobileView {
     display: none;
   }
+
+
+
 }
