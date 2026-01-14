@@ -89,6 +89,19 @@
     line-height: 45px;
   }
 
+  .comingSoonSection {
+    padding: 20px;
+}
+
+.comingDramaCard img {
+    width: 155px;
+    height: 257px;
+}
+
+.comingSoonHeading {
+    font-size: 13px;
+}
+
   .dramaCard img {
     height: 255px;
     width: 170px;

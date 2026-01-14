@@ -347,7 +347,14 @@ body {
 }
 
 .comingSoonCards {
-  display: flex;
+     display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+}
+
+.comingSoonCards::-webkit-scrollbar {
+  display: none;
 }
 
 .comingDramaCard img {
@@ -427,7 +434,6 @@ body {
   overflow-x: auto;
   overflow-y: hidden;
   scroll-behavior: smooth;
-  overscroll-behavior: contain;
   
 }
 
@@ -656,6 +662,7 @@ body {
   gap: 10px;
   margin: 20px 0px;
   background-color: transparent;
+  color: #ffffff;
 }
 
 .iconBtns :hover {
@@ -669,6 +676,7 @@ body {
   width: 39px;
   border-radius: 50%;
   overflow: hidden;
+  color: #ffffff;
 }
 
 .footerText {
