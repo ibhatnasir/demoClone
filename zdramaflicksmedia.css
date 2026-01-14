@@ -1,4 +1,4 @@
-@media (max-width: 800px) {
+/* @media (max-width: 800px) {
   .hideOnMobile {
     display: none;
     width: 0;
@@ -22,9 +22,9 @@
   .sideScrollLeft {
     display: none;
   }
-}
+} */
 
-@media (max-width: 450px) {
+@media (max-width: 1050px) {
   .hideOnMobile {
     display: none;
     width: 0;
