@@ -99,8 +99,9 @@
 
     .section3{
         flex-direction: column-reverse;
-        align-items: center;
+        align-items: flex-start;
         padding-bottom: 50px;
+        padding-left: 30px;
     }
 
     .textContainer{
