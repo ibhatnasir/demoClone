@@ -1,196 +1,188 @@
-@media (max-width:800px) {
-    .hideOnMobile {
-        display: none;
-        width: 0;
-    }
+@media (max-width: 800px) {
+  .hideOnMobile {
+    display: none;
+    width: 0;
+  }
 
-    .navBar{
-        justify-content: space-between;
-    }
+  .navBar {
+    justify-content: space-between;
+  }
 
-    .navBtns{
-        gap: 10px;
-        margin-right: 20px;
-    }
+  .navBtns {
+    gap: 10px;
+    margin-right: 20px;
+  }
 
-    .logoImg img{
-        width: 120px;
-        height: auto;
-        
-    }
+  .logoImg img {
+    width: 120px;
+    height: auto;
+  }
 
-    .sideScrollRight, .sideScrollLeft {
-        display: none;
-    }
-
-    
- 
+  .sideScrollRight,
+  .sideScrollLeft {
+    display: none;
+  }
 }
 
-@media (max-width:450px) {
+@media (max-width: 450px) {
+  .hideOnMobile {
+    display: none;
+    width: 0;
+  }
 
-    .hideOnMobile {
-        display: none;
-        width: 0;
-    }
+  .collectionHidden {
+    display: none;
+  }
 
-    .collectionHidden{
-        display: none;
-    }
+  .mobileView {
+    display: block;
+  }
 
-    .mobileView{
-        display: block;
-    }
+  .navBar {
+    width: 100%;
+    height: 40px;
+    justify-content: space-between;
+  }
 
-    .navBar{
-        width: 100%;
-        height: 40px;
-        justify-content: space-between;
-    }
+  .navBtns {
+    gap: 10px;
+    margin-right: 20px;
+  }
 
-    .navBtns{
-        gap: 10px;
-        margin-right: 20px;
-    }
+  .logoImg img {
+    width: 120px;
+    height: auto;
+    margin-left: 15px;
+  }
 
-    .logoImg img{
-        width: 120px;
-        height: auto;
-        margin-left: 15px;
-        
-    }
+  .sideScrollRight,
+  .sideScrollLeft {
+    display: none;
+  }
 
-    .sideScrollRight, .sideScrollLeft {
-        display: none;
-    }
+  .sideBarContainer {
+    width: 80%;
+  }
 
-    .sideBarContainer{
-        width: 80%;
-    }
+  .navBtns {
+    gap: 15px;
+    padding-right: 0px;
+  }
 
-    .navBtns{
-       gap: 15px;
-        padding-right: 0px;
-    }
+  .logoImg img {
+    width: 100px;
+    height: auto;
+  }
 
-    .logoImg img{
-        width: 100px;
-        height: auto;
-        
-    }
+  .heroImg {
+    height: 400px;
+  }
 
-    .heroImg{
-        height: 400px;
+  .tagline {
+    left: 20px;
+    width: 80%;
+    top: 160px;
+  }
 
-    }
+  .tagline h1 {
+    font-size: 25px;
+    line-height: 45px;
+  }
 
-    .tagline{
-        left: 20px;
-        width: 80%;
-        top: 160px;
+  .dramaCard img {
+    height: 255px;
+    width: 170px;
+  }
 
-    }
+  .section3 {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    padding-bottom: 50px;
+    padding-left: 30px;
+  }
 
-    .tagline h1{
-        font-size: 25px;
-        line-height: 45px;
+  .textContainer {
+    margin-left: 10px;
+  }
+  .textContainer h3 {
+    font-size: 25px;
+  }
 
-    }
-
-    .dramaCard img {
-        height:255px;
-        width: 170px;
-    }
-
-    .section3{
-        flex-direction: column-reverse;
-        align-items: flex-start;
-        padding-bottom: 50px;
-        padding-left: 30px;
-    }
-
-    .textContainer{
-        margin-left: 10px;
-    }
-    .textContainer h3{
-        font-size: 25px;
-    }
-
-    .textContainer p{
-        font-size: 16px;
-        overflow: hidden;
-    }
-    
-.svg1 img,
-.svg2 img {
-  height: 50px;
-  width: 150px;
-}
-
-.imgRight img {
-  height: 300px;
-  width: 240px;
-
-
-}
-
-.aboutSection {
-    padding: 15px;
-    
+  .textContainer p {
+    font-size: 16px;
     overflow: hidden;
-}
+  }
 
-.aboutContainer{
+  .svg1 img,
+  .svg2 img {
+    height: 50px;
+    width: 150px;
+  }
+
+  .imgRight img {
+    height: 300px;
+    width: 240px;
+  }
+
+  .aboutSection {
+    padding: 15px;
+
+    overflow: hidden;
+  }
+
+  .aboutContainer {
     gap: 15px;
     flex-direction: column;
-}
+  }
 
-.aboutText{
+  .aboutText {
     margin-left: 0;
     width: 300px;
+  }
 
-}
-
-.aboutContainer h2{
+  .aboutContainer h2 {
     font-size: 24px;
+  }
 
-}
-
-.aboutContainer p{
+  .aboutContainer p {
     font-size: 16px;
     line-height: 1.4;
-}
+  }
 
-.footerText{
+  .footerText {
     font-size: 16px;
     width: 60%;
     text-align: center;
-}
+  }
 
-.copyRight{
-    font-size: 14px;
-    gap: 200px;
-}
+  .copyRight {
+    font-size: 10px;
+    flex-wrap: wrap;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0px;
+  }
 
-.dramaCardsSection{
+  .dramaCardsSection {
     padding: 10px 20px;
-}
+  }
 
-.dramaCard h3 {
-        font-size: 16px;
+  .dramaCard h3 {
+    font-size: 16px;
     padding-left: 5px;
-}
+  }
 
-.heading {
+  .heading {
     margin-top: 25px;
-     font-size: 16px;
-}
+    font-size: 16px;
+  }
 
-.exploreHeading {
+  .exploreHeading {
     font-size: 17px;
-}
+  }
 
-.imgCnt{
+  .imgCnt {
     padding: 2px;
     margin-top: 0px;
     height: 300px;
@@ -198,26 +190,24 @@
     align-items: center;
     justify-content: center;
     display: flex;
-}
+  }
 
-.imgCnt img{
+  .imgCnt img {
     width: 225px;
     height: 280px;
-}
+  }
 
-
-.section2Heading{
+  .section2Heading {
     flex-wrap: wrap;
+  }
 }
 
-}
+@media (min-width: 800px) {
+  #manuBtn {
+    display: none;
+  }
 
-@media (min-width:800px) {
-       #manuBtn {
-        display: none;
-    }
-
-      .mobileView{
-        display: none;
-    }
+  .mobileView {
+    display: none;
+  }
 }
