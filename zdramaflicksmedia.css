@@ -94,33 +94,32 @@
     font-size: 30px;
     line-height: 10.34px;
     letter-spacing: 4.77px;
-  
-}
+  }
 
-.section2Mobile{
-  display: block;
-}
+  .section2Mobile {
+    display: block;
+  }
 
-.section2Container{
+  .section2Container {
     display: none;
-}
+  }
 
-.section2Heading{
+  .section2Heading {
     display: none;
-}
+  }
 
   .comingSoonSection {
     padding: 20px;
-}
+  }
 
-.comingDramaCard img {
+  .comingDramaCard img {
     width: 155px;
     height: 257px;
-}
+  }
 
-.comingSoonHeading {
+  .comingSoonHeading {
     font-size: 13px;
-}
+  }
 
   .dramaCard img {
     height: 255px;
@@ -243,7 +242,4 @@
   .mobileView {
     display: none;
   }
-
-
-
 }

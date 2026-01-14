@@ -116,7 +116,7 @@ body {
   transition: all 0.5s ease;
 }
 
-#manuBtn i{
+#manuBtn i {
   color: #ffffff;
   font-size: 22px;
 }
@@ -305,8 +305,8 @@ body {
 
 .section2midContainer {
   position: relative;
-      width: 370px;
-    padding: 10px;
+  width: 370px;
+  padding: 10px;
   height: auto;
   margin: 15px;
   aspect-ratio: 16 / 9;
@@ -336,33 +336,32 @@ body {
 
 /* mobileView adjustments section2 */
 
-.section2Mobile{
+.section2Mobile {
   background-color: #0f0f0f;
   padding: 15px;
   display: none;
 }
 
-
-.section2HeadingMobile h2{
+.section2HeadingMobile h2 {
   font-size: 22px;
   line-height: 36.34px;
   text-align: center;
   font-family: "Alatsi", sans-serif;
 }
 
-.section2HeadingMobile p{
+.section2HeadingMobile p {
   font-size: 16px;
   font-family: "Inter", sans-serif;
   padding: 18px 0px;
 }
 
-.contentStyleMobile h3{
+.contentStyleMobile h3 {
   font-size: 15px;
   font-family: "Alatsi", sans-serif;
-  padding-top: 15px ;
+  padding-top: 15px;
 }
 
-.contentStyleMobile p{
+.contentStyleMobile p {
   font-size: 14px;
   line-height: 1.4;
   font-family: "Inter", sans-serif;
@@ -377,16 +376,16 @@ body {
 
 .comingSoonHeading {
   font-family: "Alatsi", sans-serif;
-  font-weight:400;
+  font-weight: 400;
   margin-left: 15px;
   font-size: 15px;
 }
 
 .comingSoonCards {
-     display: flex;
-    overflow-x: auto;
-    overflow-y: hidden;
-    scroll-behavior: smooth;
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
 }
 
 .comingSoonCards::-webkit-scrollbar {
@@ -454,7 +453,7 @@ body {
 
 .sideScrollRight {
   position: relative;
-    right: -1215px;
+  right: -1215px;
   z-index: 1;
   top: -212px;
   cursor: pointer;
@@ -470,7 +469,6 @@ body {
   overflow-x: auto;
   overflow-y: hidden;
   scroll-behavior: smooth;
-  
 }
 
 .dramaCardsRow::-webkit-scrollbar {

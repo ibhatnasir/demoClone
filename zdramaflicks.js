@@ -1,17 +1,17 @@
 function showSidebar() {
-    const sideBarContainer = document.querySelector('.sideBarContainer');
-    sideBarContainer.style.display = 'flex';
+  const sideBarContainer = document.querySelector(".sideBarContainer");
+  sideBarContainer.style.display = "flex";
 }
 
 function hideSidebar() {
-    const sideBarContainer = document.querySelector('.sideBarContainer');
-    sideBarContainer.style.display = 'none';
+  const sideBarContainer = document.querySelector(".sideBarContainer");
+  sideBarContainer.style.display = "none";
 }
 
-const scrollWheel = document.querySelector('.dramaCardsRow');
+const scrollWheel = document.querySelector(".dramaCardsRow");
 
 scrollWheel.addEventListener(
-  'wheel',
+  "wheel",
   (evt) => {
     // If touchpad is scrolling horizontally, let browser handle it
     if (Math.abs(evt.deltaX) > Math.abs(evt.deltaY)) return;
