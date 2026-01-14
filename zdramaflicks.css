@@ -305,7 +305,8 @@ body {
 
 .section2midContainer {
   position: relative;
-  width: 410px;
+      width: 370px;
+    padding: 10px;
   height: auto;
   margin: 15px;
   aspect-ratio: 16 / 9;
