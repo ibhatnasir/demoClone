@@ -115,6 +115,11 @@ body {
   background-color: #ffffff;
   transition: all 0.5s ease;
 }
+
+#manuBtn i{
+  color: #ffffff;
+  font-size: 22px;
+}
 /* Side nav bar */
 
 .btnsHideOnMobile {

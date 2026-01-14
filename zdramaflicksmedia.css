@@ -69,8 +69,8 @@
     }
 
     .navBtns{
-        gap: 5px;
-        padding-right: 10px;
+       gap: 15px;
+        padding-right: 0px;
     }
 
     .logoImg img{
