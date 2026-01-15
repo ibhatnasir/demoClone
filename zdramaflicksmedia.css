@@ -311,4 +311,8 @@
   .mobileView {
     display: none;
   }
+
+  .exploreHeading {
+    margin-left: 45px;
+}
 }
