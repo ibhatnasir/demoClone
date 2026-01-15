@@ -121,7 +121,7 @@
     font-size: 13px;
   }
 
-  .dramaCard img {
+  .card {
     height: 255px;
     width: 170px;
   }
@@ -197,7 +197,7 @@
   }
 
   .dramaCardsSection {
-    padding: 10px 20px;
+    padding: 10px 0px;
   }
 
   .dramaCard h3 {
@@ -231,6 +231,63 @@
 
   .section2Heading {
     flex-wrap: wrap;
+  }
+
+  .dramaCardsRow {
+    gap: 30px;
+    margin-left: 3px;
+  }
+
+  .heading {
+    margin-left: 10px;
+  }
+
+  .wrapper {
+    padding: 10px 0px;
+  }
+
+  .dramaCardsRow {
+    width: 95%;
+    padding: 0px 10px;
+  }
+
+  .card:hover .overlay {
+    height: 50%;
+  }
+
+  .overlay h3 {
+    padding-top: 10px;
+  }
+
+  .overlay p {
+    padding-top: 5px;
+  }
+
+  .overlayBtns {
+    gap: 10px;
+    margin-top: 15px;
+  }
+
+  #playBtn {
+    height: 30px;
+    width: 60px;
+    padding: 2px 5px;
+    gap: 1px;
+  }
+
+  #playSpn {
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  #playBtn img {
+    height: 15px;
+    width: 15px;
+  }
+
+  .overlayIconBtns {
+    height: 30px;
+    width: 30px;
   }
 }
 
