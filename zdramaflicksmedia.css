@@ -137,15 +137,12 @@
     margin-left: 10px;
   }
   .textContainer h3 {
-    font-size: 30px;
-    font-weight: 800;
+    font-size: 24px;
   }
 
   .textContainer p {
     font-size: 16px;
-    font: 400 22px / 42px Inter, sans-serif;
-    line-height: normal;
-    overflow: hidden;
+    line-height: 1.4;
   }
 
   .svg1 img,
