@@ -87,13 +87,30 @@ body {
   color: #ffffff;
   gap: 7px;
   cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
 }
 
-#loginBtn:hover {
+#loginBtn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 100%;
+  background-color: #e21220;
+  transition:  0.5s ease;
+  z-index: -1;
+}
+
+#loginBtn:hover::before {
   background-color: #e21220;
   color: #ffffff;
   border: none;
-  transition: all 0.5s ease;
+  transition: all 0.3s ease;
+  width: 100%;
 }
 
 #getAppBtn {
@@ -103,17 +120,37 @@ body {
   font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 18px;
-  border: none;
+  border: 1px solid #ffffff;
   border-radius: 8px;
   background-color: #e21220;
   color: #ffffff;
   cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
 }
 
-#getAppBtn:hover {
-  color: #e21220;
+#getAppBtn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #e21220;
+  transition: 0.5s ease;
+  z-index: -1;
+}
+
+#getAppBtn:hover::before {
   background-color: #ffffff;
-  transition: all 0.5s ease;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+#getAppBtn:hover{
+  color: #e21220;
+  border: 1px solid #e21220;
 }
 
 #manuBtn i {
