@@ -31,9 +31,9 @@ body {
 
 .navLinks ul {
   display: flex;
-  width: 572px;
+  width: 610px;
   list-style: none;
-  gap: 20px;
+  gap: 15px;
   justify-content: center;
   align-items: center;
 }
