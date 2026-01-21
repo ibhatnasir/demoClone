@@ -34,27 +34,12 @@ main {
     align-items: start;
   }
 
+  .card {
+    height: 250px;
+    width: 150px;
+  }
+
+
  
-}
-
-@media (max-width: 400px) {
-  main {
-    height: auto;
-  }
-
-  .Search-tagline h1 {
-    font-size: 25px;
-  }
-
-  .dramaCardsRow {
-    justify-content: center;
-    gap: 15px;
-    flex-direction: row;
-  }
-
-      .card {
-        height: 370px;
-        width: 270px;
-    }
 }
 

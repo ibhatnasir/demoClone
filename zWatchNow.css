@@ -94,13 +94,16 @@ main {
   .dramaCardsRow {
     justify-content: center;
     gap: 20px;
-    flex-direction: row;
+    flex-direction: column;
   }
 
- 
+  .card {
+    height: 250px;
+    width: 150px;
+  }
 }
 
-@media (max-width: 400px) {
+/* @media (max-width: 400px) {
   main {
     height: auto;
   }
@@ -119,4 +122,4 @@ main {
         height: 370px;
         width: 270px;
     }
-}
+} */
