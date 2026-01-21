@@ -8,6 +8,11 @@ function hideSidebar() {
   sideBarContainer.style.display = "none";
 }
 
+// function toggleSearchBox() {
+//   const InputSearchIconClose = document.querySelector(".InputSearchIconClose");
+//   InputSearchIconClose.style.display = "block";
+// }
+
 // const scrollWheel = document.querySelector(".dramaCardsRow");
 
 // scrollWheel.addEventListener(
@@ -21,7 +26,6 @@ function hideSidebar() {
 //   },
 //   { passive: false }
 // );
-
 
 let preLoader = document.querySelector(".preLoader");
 window.addEventListener("load", function () {

@@ -100,7 +100,7 @@ body {
   width: 0;
   height: 100%;
   background-color: #e21220;
-  transition:  0.5s ease;
+  transition: 0.5s ease;
   z-index: -1;
 }
 
@@ -147,7 +147,7 @@ body {
   width: 100%;
 }
 
-#getAppBtn:hover{
+#getAppBtn:hover {
   color: #e21220;
   border: 1px solid #e21220;
 }
@@ -301,7 +301,9 @@ body {
   color: #fff;
   max-width: 65%;
   margin: 12px auto 0;
-  font: 400 22px / 42px Inter, sans-serif;
+  font:
+    400 22px / 42px Inter,
+    sans-serif;
   text-align: center;
 }
 
@@ -321,13 +323,17 @@ body {
 
 .contentStyle h3 {
   color: #fff;
-  font: 400 28px Alatsi, sans-serif;
+  font:
+    400 28px Alatsi,
+    sans-serif;
 }
 
 .contentStyle p {
   color: #a0a1a8;
   margin-top: 16px;
-  font: 400 18px / 1.4 Inter, sans-serif;
+  font:
+    400 18px / 1.4 Inter,
+    sans-serif;
 }
 
 .section2rightContainer {
@@ -337,6 +343,17 @@ body {
   justify-content: normal;
   margin: 40px;
   gap: 50px;
+}
+
+.backgroundLight {
+  position: absolute;
+  top: 205px;
+  right: 430px;
+  width: 497px;
+  height: 350px;
+  background: #d51320;
+  filter: blur(150px);
+  z-index: 0;
 }
 
 .section2midContainer {
@@ -578,7 +595,7 @@ body {
   border-radius: 15px;
   border: 2px solid #555151;
   height: 340px;
-  width: 220px;
+  width: 215px;
   overflow: hidden;
   cursor: pointer;
 }
@@ -605,8 +622,8 @@ body {
   justify-content: start;
   align-items: start;
   flex-direction: column;
-  color: white;
-  background: rgba(76, 62, 62, 0.911);
+  color: rgb(255, 255, 255);
+  background: #505050e5;
   border-radius: 10px 10px 0px 0px;
   padding: 0px 10px;
   font-size: 15px;
@@ -621,7 +638,7 @@ body {
 
 .overlay p {
   padding-top: 10px;
-  color: #a0a1a8;
+  color: #ffffff;
   font-family: "Inter", sans-serif;
 }
 
@@ -713,14 +730,18 @@ body {
   margin-left: 55px;
 }
 .textContainer h3 {
-  font: 600 40px Alatsi, sans-serif;
+  font:
+    600 40px Alatsi,
+    sans-serif;
   text-align: start;
 }
 
 .textContainer p {
   color: #fff;
   max-width: 65%;
-  font: 400 22px / 42px Inter, sans-serif;
+  font:
+    400 22px / 42px Inter,
+    sans-serif;
   margin-top: 10px;
 }
 
@@ -835,11 +856,15 @@ body {
 }
 
 .aboutContainer h2 {
-  font: 700 40px Alatsi, sans-serif;
+  font:
+    700 40px Alatsi,
+    sans-serif;
 }
 
 .aboutContainer p {
-  font: 300 28px / 46px Inter, sans-serif;
+  font:
+    300 28px / 46px Inter,
+    sans-serif;
 }
 
 /* footer section */
@@ -887,7 +912,9 @@ body {
 }
 
 .footerText {
-  font: 400 26px / 1.4 Inter, sans-serif;
+  font:
+    400 26px / 1.4 Inter,
+    sans-serif;
   text-align: center;
 }
 

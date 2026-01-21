@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0f0f0f;
+  color: #ffffff;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  height: 960px;
+}
+
+.dramaCardsRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+  scroll-behavior: smooth;
+  width: 95%;
+  flex-wrap: wrap;
+  overflow: hidden;
+  margin-left: 0px;
+  justify-content: start;
+}
+
+.load {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.load button {
+  height: 30px;
+  width: 100px;
+  font-size: large;
+  background-color: #e81d2a;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  background-color: #e21220;
+  color: #ffffff;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+.load button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 100%;
+  background-color: #e21220;
+  transition: 0.5s ease;
+  z-index: -1;
+}
+
+.load button:hover::before {
+  background-color: #ffffff;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+.load button:hover {
+  color: #e21220;
+}
+
+/* media queries for responsiveness  */
+
+@media (max-width: 768px) {
+  main {
+    height: 1700px;
+  }
+
+  .Search-tagline h1 {
+    font-size: 30px;
+  }
+
+  .dramaCardsRow {
+    justify-content: center;
+    gap: 20px;
+    flex-direction: row;
+  }
+
+ 
+}
+
+@media (max-width: 400px) {
+  main {
+    height: auto;
+  }
+
+  .Search-tagline h1 {
+    font-size: 25px;
+  }
+
+  .dramaCardsRow {
+    justify-content: center;
+    gap: 15px;
+    flex-direction: row;
+  }
+
+      .card {
+        height: 370px;
+        width: 270px;
+    }
+}
