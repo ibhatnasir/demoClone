@@ -136,10 +136,10 @@
   .bgLight {
     position: absolute;
     background: #d51320;
-    filter: blur(50px);
+    filter: blur(100px);
     z-index: 0;
-    height: 300px;
-    width: 220px;
+    height: 150px;
+    width: 200px;
     left: 50px;
   }
 
