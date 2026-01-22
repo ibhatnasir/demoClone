@@ -259,6 +259,7 @@
   .dramaCardsRow {
     width: 95%;
     padding: 0px 10px;
+    scroll-behavior: smooth;
   }
 
   .card:hover .overlay {
