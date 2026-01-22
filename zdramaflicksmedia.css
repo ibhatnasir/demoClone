@@ -133,6 +133,16 @@
     padding-left: 30px;
   }
 
+  .bgLight {
+    position: absolute;
+    background: #d51320;
+    filter: blur(50px);
+    z-index: 0;
+    height: 300px;
+    width: 220px;
+    left: 50px;
+  }
+
   .textContainer {
     margin-left: 10px;
   }
@@ -313,5 +323,9 @@
 
   .exploreHeading {
     margin-left: 45px;
+  }
+
+  .bgLight {
+    display: none;
   }
 }
