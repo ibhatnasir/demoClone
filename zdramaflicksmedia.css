@@ -299,7 +299,7 @@
   margin-top: 20px;
   margin-bottom: 40px;
   scroll-behavior: smooth;
-  padding: 0px 15px;
+  padding: 0px 10px;
 }
 
 @media (min-width: 800px) {
