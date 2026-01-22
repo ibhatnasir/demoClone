@@ -457,6 +457,15 @@ body {
   margin-right: 20px;
 }
 
+ .comingDramaCard p {
+    position: absolute;
+    bottom: 405px;
+    font-size: small;
+    color: #837f7f;
+    font-family: "Inter", sans-serif;
+  }
+
+
 /* scroll up bar */
 .scrollUp {
   position: fixed;
