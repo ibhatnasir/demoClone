@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -7,24 +7,18 @@
     <link rel="stylesheet" href="zdramaflicks.css" />
     <link rel="stylesheet" href="zdramaflicksmedia.css" />
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="fonts.googleapis.com" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="fonts.googleapis.com" rel="stylesheet" />
 
-<link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-/>
-
-
-
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
   </head>
 
   <body>
-
-    <div class="preLoader">
-    </div>
+    <div class="preLoader"></div>
 
     <header>
       <div class="navBar">
@@ -33,62 +27,66 @@
         </div>
 
         <div class="navLinks hideOnMobile">
-          <ul >
+          <ul>
             <li class="hideOnMobile"><a href="zWatchNow.html">Watch Now</a></li>
-            <li class="hideOnMobile"><a href="zContinueWatching.html">Continue Watiching</a></li>
+            <li class="hideOnMobile">
+              <a href="zContinueWatching.html">Continue Watiching</a>
+            </li>
             <li class="hideOnMobile"><a href="zMyList.html">Saved List</a></li>
             <li class="hideOnMobile"><a href="zPremium.html">Premium</a></li>
             <li class="hideOnMobile"><a href="zRewards.html">Rewards</a></li>
-
           </ul>
-          
         </div>
 
-        <div class="navBtns ">
-          <button class="find"><a aria-label="search" type="submit" href="zSearch.html"><img src="Assets/megGlass.png" /></a> </button>
+        <div class="navBtns">
+          <button class="find">
+            <a aria-label="search" type="submit" href="zSearch.html"
+              ><img src="Assets/megGlass.png"
+            /></a>
+          </button>
 
           <span class="hideOnMobile btnsHideOnMobile">
-
             <button class="navbtn , hideOnMobile" id="loginBtn">
               <img src="Assets/Group 54979.png" /> Log In
             </button>
-            
-            <button class="navbtn , hideOnMobile" id="getAppBtn">Get App</button>
+
+            <button class="navbtn , hideOnMobile" id="getAppBtn">
+              Get App
+            </button>
           </span>
 
-          <span id="manuBtn" onclick="showSidebar()"><i class="fa-solid fa-bars"></i></span>
+          <span id="manuBtn" onclick="showSidebar()"
+            ><i class="fa-solid fa-bars"></i
+          ></span>
         </div>
       </div>
 
       <!-- nav side bar -->
       <div class="sideBarContainer">
-      
-       <div class="sideNavBar" id="sideNavBar">
+        <div class="sideNavBar" id="sideNavBar">
           <ul>
-            <span id="closeBtn" onclick="hideSidebar()"><i class="fa-solid fa-angle-right"></i></span>
+            <span id="closeBtn" onclick="hideSidebar()"
+              ><i class="fa-solid fa-angle-right"></i
+            ></span>
             <li><a href="zWatchNow.html">Watch Now</a></li>
             <li><a href="zContinueWatching.html">Continue Watiching</a></li>
             <li><a href="zMyList.html">Saved List</a></li>
             <li><a href="zPremium.html">Premium</a></li>
             <li><a href="zRewards.html">Rewards</a></li>
-            
           </ul>
-          
         </div>
         <div class="btnsContainer">
-
           <div class="navBtns">
             <button class="navbtn" id="loginBtn">
               <img src="Assets/Group 54979.png" /> Log In
             </button>
           </div>
           <div>
-  
             <button class="navbtn" id="getAppBtn">Get App</button>
           </div>
         </div>
       </div>
-        <!-- // nav side bar end -->
+      <!-- // nav side bar end -->
 
       <section class="heroSection">
         <div class="heroSectionContainer">
@@ -100,17 +98,14 @@
               <span>Anytime, Anywhere</span>
             </h1>
           </div>
-
         </div>
       </section>
     </header>
 
     <section class="section2main">
-
       <!-- mobileView -->
 
       <div class="section2Mobile">
-
         <div class="section2HeadingMobile">
           <h2>DramaFlicks</h2>
           <p>
@@ -144,7 +139,7 @@
       </div>
 
       <!-- desktop view -->
-        <div class="section2">
+      <div class="section2">
         <div class="section2Heading">
           <h2>DramaFlicks</h2>
           <p>
@@ -166,10 +161,9 @@
           </div>
 
           <div class="backgroundLight"></div>
-          
+
           <div class="section2midContainer">
             <!-- <img src="Assets/section2midImg.webp" /> -->
-             
           </div>
 
           <div class="section2rightContainer">
@@ -187,33 +181,30 @@
             </div>
           </div>
         </div>
-         
+
         <!-- coming soon section -->
 
         <div class="comingSoonSection">
-          <div   class="comingSoonHeading">
-          <h1>Coming Soons...</h1>
+          <div class="comingSoonHeading">
+            <h1>Coming Soons...</h1>
           </div>
           <div class="comingSoonCards">
-            
-            <div class="comingDramaCard " >
+            <div class="comingDramaCard">
               <p>20-MAY</p>
               <img class="cardsImg" src="Assets/BloodContract_new.jpg" />
             </div>
 
-            <div class="comingDramaCard " >
+            <div class="comingDramaCard">
               <p>27-MAY</p>
               <img class="cardsImg" src="Assets/BloodContract_new.jpg" />
             </div>
-
           </div>
         </div>
+      </div>
     </section>
 
-    
     <main>
-
-       <!-- Drama cards section ... -->
+      <!-- Drama cards section ... -->
 
       <div class="dramaCardsSection">
         <div class="dramaCardsContainer1">
@@ -221,591 +212,825 @@
             <h2>Popular Dramas</h2>
           </div>
 
-          
           <!-- side scroll 
          <span class="sideScrollLeft"><img src="Assets/side scroll black.png" ></span> -->
-          
-          <div class="dramaCardsRow">
 
+          <div class="dramaCardsRow">
             <!-- new -->
 
-      <div class="dramaContainer">
-        <div class="wrapper">
-          <div class="cardArea">
-            <div class="card">
-              <img src="Assets/Crown_new.jpg" >
-              <div class="overlay">
-                <h3>The Crown</h3>
-                <p>this is the game of blood</p>
+            <div class="dramaContainer">
+              <div class="wrapper">
+                <div class="cardArea">
+                  <div class="card">
+                    <img src="Assets/Crown_new.jpg" />
+                    <div class="overlay">
+                      <h3>The Crown</h3>
+                      <p>this is the game of blood</p>
 
-                <span class="overlayBtns">
-                  <button id="playBtn"><img src="Assets/play_circle_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" > <span id="playSpn"> Play</span></button>
+                      <span class="overlayBtns">
+                        <button id="playBtn">
+                          <img
+                            src="Assets/play_circle_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                          />
+                          <span id="playSpn"> Play</span>
+                        </button>
 
-                <button class="overlayIconBtns"><img src="Assets/bookmark_check_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" ></button>
+                        <button class="overlayIconBtns">
+                          <img
+                            src="Assets/bookmark_check_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                          />
+                        </button>
 
-                <button class="overlayIconBtns"><img src="Assets/share_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" ></button>
-                </span>
+                        <button class="overlayIconBtns">
+                          <img
+                            src="Assets/share_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                          />
+                        </button>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <h2>The Crown</h2>
+              </div>
+            </div>
 
+            <div class="dramaContainer">
+              <div class="wrapper">
+                <div class="cardArea">
+                  <div class="card">
+                    <img src="Assets/BloodContract_new.jpg" />
+                    <div class="overlay">
+                      <h3>Blood Contract</h3>
+                      <p>this is the game of blood</p>
+
+                      <span class="overlayBtns">
+                        <button id="playBtn">
+                          <img
+                            src="Assets/play_circle_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                          />
+                          <span id="playSpn"> Play</span>
+                        </button>
+
+                        <button class="overlayIconBtns">
+                          <img
+                            src="Assets/bookmark_check_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                          />
+                        </button>
+
+                        <button class="overlayIconBtns">
+                          <img
+                            src="Assets/share_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                          />
+                        </button>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <h2>Blood Contract</h2>
+              </div>
+            </div>
+
+            <div class="dramaContainer">
+              <div class="wrapper">
+                <div class="cardArea">
+                  <div class="card">
+                    <img src="Assets/Hidden-Agenda_new.jpg" />
+                    <div class="overlay">
+                      <h3>Hidden Agenda</h3>
+                      <p>this is the game of blood</p>
+
+                      <span class="overlayBtns">
+                        <button id="playBtn">
+                          <img
+                            src="Assets/play_circle_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                          />
+                          <span id="playSpn"> Play</span>
+                        </button>
+
+                        <button class="overlayIconBtns">
+                          <img
+                            src="Assets/bookmark_check_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                          />
+                        </button>
+
+                        <button class="overlayIconBtns">
+                          <img
+                            src="Assets/share_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                          />
+                        </button>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <h2>Hidden Agenda</h2>
+              </div>
+            </div>
+
+            <div class="dramaContainer">
+              <div class="wrapper">
+                <div class="cardArea">
+                  <div class="card">
+                    <img src="Assets/BloodContract_new.jpg" />
+                    <div class="overlay">
+                      <h3>Blood Contract</h3>
+                      <p>this is the game of blood</p>
+
+                      <span class="overlayBtns">
+                        <button id="playBtn">
+                          <img
+                            src="Assets/play_circle_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                          />
+                          <span id="playSpn"> Play</span>
+                        </button>
+
+                        <button class="overlayIconBtns">
+                          <img
+                            src="Assets/bookmark_check_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                          />
+                        </button>
+
+                        <button class="overlayIconBtns">
+                          <img
+                            src="Assets/share_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                          />
+                        </button>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <h2>Blood Contract</h2>
+              </div>
+            </div>
+
+            <div class="dramaContainer">
+              <div class="wrapper">
+                <div class="cardArea">
+                  <div class="card">
+                    <img src="Assets/Mysterious_Murder_new.jpg" />
+                    <div class="overlay">
+                      <h3>Mysterious</h3>
+                      <p>this is the game of blood</p>
+
+                      <span class="overlayBtns">
+                        <button id="playBtn">
+                          <img
+                            src="Assets/play_circle_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                          />
+                          <span id="playSpn"> Play</span>
+                        </button>
+
+                        <button class="overlayIconBtns">
+                          <img
+                            src="Assets/bookmark_check_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                          />
+                        </button>
+
+                        <button class="overlayIconBtns">
+                          <img
+                            src="Assets/share_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                          />
+                        </button>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <h2>Mysterious Muder</h2>
+              </div>
+            </div>
+
+            <div class="dramaContainer">
+              <div class="wrapper">
+                <div class="cardArea">
+                  <div class="card">
+                    <img src="Assets/BloodContract_new.jpg" />
+                    <div class="overlay">
+                      <h3>Blood Contract</h3>
+                      <p>this is the game of blood</p>
+
+                      <span class="overlayBtns">
+                        <button id="playBtn">
+                          <img
+                            src="Assets/play_circle_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                          />
+                          <span id="playSpn"> Play</span>
+                        </button>
+
+                        <button class="overlayIconBtns">
+                          <img
+                            src="Assets/bookmark_check_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                          />
+                        </button>
+
+                        <button class="overlayIconBtns">
+                          <img
+                            src="Assets/share_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                          />
+                        </button>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <h2>Blood Contract</h2>
+              </div>
+            </div>
+
+            <div class="dramaContainer">
+              <div class="wrapper">
+                <div class="cardArea">
+                  <div class="card">
+                    <img src="Assets/Crown_new.jpg" />
+                    <div class="overlay">
+                      <h3>The Crown</h3>
+                      <p>this is the game of blood</p>
+
+                      <span class="overlayBtns">
+                        <button id="playBtn">
+                          <img
+                            src="Assets/play_circle_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                          />
+                          <span id="playSpn"> Play</span>
+                        </button>
+
+                        <button class="overlayIconBtns">
+                          <img
+                            src="Assets/bookmark_check_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                          />
+                        </button>
+
+                        <button class="overlayIconBtns">
+                          <img
+                            src="Assets/share_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                          />
+                        </button>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <h2>The Crown</h2>
+              </div>
+            </div>
+
+            <div class="dramaContainer">
+              <div class="wrapper">
+                <div class="cardArea">
+                  <div class="card">
+                    <img src="Assets/BloodContract_new.jpg" />
+                    <div class="overlay">
+                      <h3>Blood Contract</h3>
+                      <p>this is the game of blood</p>
+
+                      <span class="overlayBtns">
+                        <button id="playBtn">
+                          <img
+                            src="Assets/play_circle_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                          />
+                          <span id="playSpn"> Play</span>
+                        </button>
+
+                        <button class="overlayIconBtns">
+                          <img
+                            src="Assets/bookmark_check_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                          />
+                        </button>
+
+                        <button class="overlayIconBtns">
+                          <img
+                            src="Assets/share_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                          />
+                        </button>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <h2>Blood Contract</h2>
+              </div>
+            </div>
+
+            <div class="dramaContainer">
+              <div class="wrapper">
+                <div class="cardArea">
+                  <div class="card">
+                    <img src="Assets/Mysterious_Murder_new.jpg" />
+                    <div class="overlay">
+                      <h3>The Crown</h3>
+                      <p>this is the game of blood</p>
+
+                      <span class="overlayBtns">
+                        <button id="playBtn">
+                          <img
+                            src="Assets/play_circle_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                          />
+                          <span id="playSpn"> Play</span>
+                        </button>
+
+                        <button class="overlayIconBtns">
+                          <img
+                            src="Assets/bookmark_check_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                          />
+                        </button>
+
+                        <button class="overlayIconBtns">
+                          <img
+                            src="Assets/share_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                          />
+                        </button>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <h2>The Crown</h2>
+              </div>
+            </div>
+
+            <div class="dramaContainer">
+              <div class="wrapper">
+                <div class="cardArea">
+                  <div class="card">
+                    <img src="Assets/BloodContract_new.jpg" />
+                    <div class="overlay">
+                      <h3>Blood Contract</h3>
+                      <p>this is the game of blood</p>
+
+                      <span class="overlayBtns">
+                        <button id="playBtn">
+                          <img
+                            src="Assets/play_circle_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                          />
+                          <span id="playSpn"> Play</span>
+                        </button>
+
+                        <button class="overlayIconBtns">
+                          <img
+                            src="Assets/bookmark_check_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                          />
+                        </button>
+
+                        <button class="overlayIconBtns">
+                          <img
+                            src="Assets/share_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                          />
+                        </button>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <h2>Blood Contract</h2>
               </div>
             </div>
           </div>
-          <h2>The Crown</h2>
         </div>
-      </div>
-      <div class="dramaContainer">
-        <div class="wrapper">
-          <div class="cardArea">
-            <div class="card">
-              <img src="Assets/BloodContract_new.jpg" >
-              <div class="overlay">
-                <h3>Blood Contract</h3>
-                <p>this is the game of blood</p>
-
-                 <span class="overlayBtns">
-                  <button id="playBtn"><img src="Assets/play_circle_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" > <span id="playSpn"> Play</span></button>
-
-                <button class="overlayIconBtns"><img src="Assets/bookmark_check_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" ></button>
-
-                <button class="overlayIconBtns"><img src="Assets/share_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" ></button>
-                </span>
-
-
-              </div>
-            </div>
-          </div>
-          <h2>Blood Contract</h2>
-        </div>
-      </div>
-
-           <div class="dramaContainer">
-        <div class="wrapper">
-          <div class="cardArea">
-            <div class="card">
-              <img src="Assets/Hidden-Agenda_new.jpg" >
-              <div class="overlay">
-                <h3>Hidden Agenda</h3>
-                <p>this is the game of blood</p>
-
-                 <span class="overlayBtns">
-                  <button id="playBtn"><img src="Assets/play_circle_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" > <span id="playSpn"> Play</span></button>
-
-                <button class="overlayIconBtns"><img src="Assets/bookmark_check_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" ></button>
-
-                <button class="overlayIconBtns"><img src="Assets/share_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" ></button>
-                </span>
-
-              </div>
-            </div>
-          </div>
-          <h2>Hidden Agenda</h2>
-        </div>
-      </div>
-
-      <div class="dramaContainer">
-        <div class="wrapper">
-          <div class="cardArea">
-            <div class="card">
-              <img src="Assets/BloodContract_new.jpg" >
-              <div class="overlay">
-                <h3>Blood Contract</h3>
-                <p>this is the game of blood</p>
-
-                 <span class="overlayBtns">
-                  <button id="playBtn"><img src="Assets/play_circle_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" > <span id="playSpn"> Play</span></button>
-
-                <button class="overlayIconBtns"><img src="Assets/bookmark_check_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" ></button>
-
-                <button class="overlayIconBtns"><img src="Assets/share_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" ></button>
-                </span>
-
-
-              </div>
-            </div>
-          </div>
-          <h2>Blood Contract</h2>
-        </div>
-      </div>
-
-      
-           <div class="dramaContainer">
-        <div class="wrapper">
-          <div class="cardArea">
-            <div class="card">
-              <img src="Assets/Mysterious_Murder_new.jpg" >
-              <div class="overlay">
-                <h3>Mysterious</h3>
-                <p>this is the game of blood</p>
-
-                 <span class="overlayBtns">
-                  <button id="playBtn"><img src="Assets/play_circle_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" > <span id="playSpn"> Play</span></button>
-
-                <button class="overlayIconBtns"><img src="Assets/bookmark_check_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" ></button>
-
-                <button class="overlayIconBtns"><img src="Assets/share_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" ></button>
-                </span>
-
-
-              </div>
-            </div>
-          </div>
-          <h2>Mysterious Muder</h2>
-        </div>
-      </div>
-
-      <div class="dramaContainer">
-        <div class="wrapper">
-          <div class="cardArea">
-            <div class="card">
-              <img src="Assets/BloodContract_new.jpg" >
-              <div class="overlay">
-                <h3>Blood Contract</h3>
-                <p>this is the game of blood</p>
-
-                 <span class="overlayBtns">
-                  <button id="playBtn"><img src="Assets/play_circle_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" > <span id="playSpn"> Play</span></button>
-
-                <button class="overlayIconBtns"><img src="Assets/bookmark_check_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" ></button>
-
-                <button class="overlayIconBtns"><img src="Assets/share_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" ></button>
-                </span>
-
-
-              </div>
-            </div>
-          </div>
-          <h2>Blood Contract</h2>
-        </div>
-      </div>
-           <div class="dramaContainer">
-        <div class="wrapper">
-          <div class="cardArea">
-            <div class="card">
-              <img src="Assets/Crown_new.jpg" >
-              <div class="overlay">
-                <h3>The Crown</h3>
-                <p>this is the game of blood</p>
-
-                 <span class="overlayBtns">
-                  <button id="playBtn"><img src="Assets/play_circle_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" > <span id="playSpn"> Play</span></button>
-
-                <button class="overlayIconBtns"><img src="Assets/bookmark_check_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" ></button>
-
-                <button class="overlayIconBtns"><img src="Assets/share_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" ></button>
-                </span>
-
-
-              </div>
-            </div>
-          </div>
-          <h2>The Crown</h2>
-        </div>
-      </div>
-
-      <div class="dramaContainer">
-        <div class="wrapper">
-          <div class="cardArea">
-            <div class="card">
-              <img src="Assets/BloodContract_new.jpg" >
-              <div class="overlay">
-                <h3>Blood Contract</h3>
-                <p>this is the game of blood</p>
-
-                 <span class="overlayBtns">
-                  <button id="playBtn"><img src="Assets/play_circle_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" > <span id="playSpn"> Play</span></button>
-
-                <button class="overlayIconBtns"><img src="Assets/bookmark_check_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" ></button>
-
-                <button class="overlayIconBtns"><img src="Assets/share_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" ></button>
-                </span>
-
-
-              </div>
-            </div>
-          </div>
-          <h2>Blood Contract</h2>
-        </div>
-      </div>
-           <div class="dramaContainer">
-        <div class="wrapper">
-          <div class="cardArea">
-            <div class="card">
-              <img src="Assets/Mysterious_Murder_new.jpg" >
-              <div class="overlay">
-                <h3>The Crown</h3>
-                <p>this is the game of blood</p>
-
-                 <span class="overlayBtns">
-                  <button id="playBtn"><img src="Assets/play_circle_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" > <span id="playSpn"> Play</span></button>
-
-                <button class="overlayIconBtns"><img src="Assets/bookmark_check_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" ></button>
-
-                <button class="overlayIconBtns"><img src="Assets/share_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" ></button>
-                </span>
-
-
-              </div>
-            </div>
-          </div>
-          <h2>The Crown</h2>
-        </div>
-      </div>
-           <div class="dramaContainer">
-        <div class="wrapper">
-          <div class="cardArea">
-            <div class="card">
-              <img src="Assets/BloodContract_new.jpg" >
-              <div class="overlay">
-                <h3>Blood Contract</h3>
-                <p>this is the game of blood</p>
-
-                 <span class="overlayBtns">
-                  <button id="playBtn"><img src="Assets/play_circle_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" > <span id="playSpn"> Play</span></button>
-
-                <button class="overlayIconBtns"><img src="Assets/bookmark_check_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" ></button>
-
-                <button class="overlayIconBtns"><img src="Assets/share_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" ></button>
-                </span>
-
-
-              </div>
-            </div>
-          </div>
-          <h2>Blood Contract</h2>
-        </div>
-      </div>
-
-        </div> 
 
         <div class="dramaCardsContainer2">
-
           <div class="exploreHeading">
             <h2 class="collectionHidden">Explore Full Collection</h2>
             <h2 class="mobileView">Explore</h2>
             <button>View All</button>
           </div>
 
-            <div class="dramaCardsRow">
-
+          <div class="dramaCardsRow">
             <!-- new -->
 
-           <div class="dramaContainer">
-        <div class="wrapper">
-          <div class="cardArea">
-            <div class="card">
-              <img src="Assets/Crown_new.jpg" >
-              <div class="overlay">
-                <h3>The Crown</h3>
-                <p>this is the game of blood</p>
+            <div class="dramaContainer">
+              <div class="wrapper">
+                <div class="cardArea">
+                  <div class="card">
+                    <img src="Assets/Crown_new.jpg" />
+                    <div class="overlay">
+                      <h3>The Crown</h3>
+                      <p>this is the game of blood</p>
 
-                <span class="overlayBtns">
-                  <button id="playBtn"><img src="Assets/play_circle_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" > <span id="playSpn"> Play</span></button>
+                      <span class="overlayBtns">
+                        <button id="playBtn">
+                          <img
+                            src="Assets/play_circle_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                          />
+                          <span id="playSpn"> Play</span>
+                        </button>
 
-                <button class="overlayIconBtns"><img src="Assets/bookmark_check_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" ></button>
+                        <button class="overlayIconBtns">
+                          <img
+                            src="Assets/bookmark_check_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                          />
+                        </button>
 
-                <button class="overlayIconBtns"><img src="Assets/share_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" ></button>
-                </span>
+                        <button class="overlayIconBtns">
+                          <img
+                            src="Assets/share_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                          />
+                        </button>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <h2>The Crown</h2>
+              </div>
+            </div>
 
+            <div class="dramaContainer">
+              <div class="wrapper">
+                <div class="cardArea">
+                  <div class="card">
+                    <img src="Assets/Hidden-Agenda_new.jpg" />
+                    <div class="overlay">
+                      <h3>Hidden Agenda</h3>
+                      <p>this is the game of blood</p>
+
+                      <span class="overlayBtns">
+                        <button id="playBtn">
+                          <img
+                            src="Assets/play_circle_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                          />
+                          <span id="playSpn"> Play</span>
+                        </button>
+
+                        <button class="overlayIconBtns">
+                          <img
+                            src="Assets/bookmark_check_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                          />
+                        </button>
+
+                        <button class="overlayIconBtns">
+                          <img
+                            src="Assets/share_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                          />
+                        </button>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <h2>Hidden Agenda</h2>
+              </div>
+            </div>
+
+            <div class="dramaContainer">
+              <div class="wrapper">
+                <div class="cardArea">
+                  <div class="card">
+                    <img src="Assets/Mysterious_Murder_new.jpg" />
+                    <div class="overlay">
+                      <h3>Mysterious</h3>
+                      <p>this is the game of blood</p>
+
+                      <span class="overlayBtns">
+                        <button id="playBtn">
+                          <img
+                            src="Assets/play_circle_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                          />
+                          <span id="playSpn"> Play</span>
+                        </button>
+
+                        <button class="overlayIconBtns">
+                          <img
+                            src="Assets/bookmark_check_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                          />
+                        </button>
+
+                        <button class="overlayIconBtns">
+                          <img
+                            src="Assets/share_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                          />
+                        </button>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <h2>Mysterious Muder</h2>
+              </div>
+            </div>
+
+            <div class="dramaContainer">
+              <div class="wrapper">
+                <div class="cardArea">
+                  <div class="card">
+                    <img src="Assets/Crown_new.jpg" />
+                    <div class="overlay">
+                      <h3>The Crown</h3>
+                      <p>this is the game of blood</p>
+
+                      <span class="overlayBtns">
+                        <button id="playBtn">
+                          <img
+                            src="Assets/play_circle_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                          />
+                          <span id="playSpn"> Play</span>
+                        </button>
+
+                        <button class="overlayIconBtns">
+                          <img
+                            src="Assets/bookmark_check_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                          />
+                        </button>
+
+                        <button class="overlayIconBtns">
+                          <img
+                            src="Assets/share_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                          />
+                        </button>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <h2>The Crown</h2>
+              </div>
+            </div>
+
+            <div class="dramaContainer">
+              <div class="wrapper">
+                <div class="cardArea">
+                  <div class="card">
+                    <img src="Assets/Mysterious_Murder_new.jpg" />
+                    <div class="overlay">
+                      <h3>The Crown</h3>
+                      <p>this is the game of blood</p>
+
+                      <span class="overlayBtns">
+                        <button id="playBtn">
+                          <img
+                            src="Assets/play_circle_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                          />
+                          <span id="playSpn"> Play</span>
+                        </button>
+
+                        <button class="overlayIconBtns">
+                          <img
+                            src="Assets/bookmark_check_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                          />
+                        </button>
+
+                        <button class="overlayIconBtns">
+                          <img
+                            src="Assets/share_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                          />
+                        </button>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <h2>The Crown</h2>
+              </div>
+            </div>
+
+            <div class="dramaContainer">
+              <div class="wrapper">
+                <div class="cardArea">
+                  <div class="card">
+                    <img src="Assets/BloodContract_new.jpg" />
+                    <div class="overlay">
+                      <h3>Blood Contract</h3>
+                      <p>this is the game of blood</p>
+
+                      <span class="overlayBtns">
+                        <button id="playBtn">
+                          <img
+                            src="Assets/play_circle_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                          />
+                          <span id="playSpn"> Play</span>
+                        </button>
+
+                        <button class="overlayIconBtns">
+                          <img
+                            src="Assets/bookmark_check_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                          />
+                        </button>
+
+                        <button class="overlayIconBtns">
+                          <img
+                            src="Assets/share_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                          />
+                        </button>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <h2>Blood Contract</h2>
+              </div>
+            </div>
+
+            <div class="dramaContainer">
+              <div class="wrapper">
+                <div class="cardArea">
+                  <div class="card">
+                    <img src="Assets/BloodContract_new.jpg" />
+                    <div class="overlay">
+                      <h3>Blood Contract</h3>
+                      <p>this is the game of blood</p>
+
+                      <span class="overlayBtns">
+                        <button id="playBtn">
+                          <img
+                            src="Assets/play_circle_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                          />
+                          <span id="playSpn"> Play</span>
+                        </button>
+
+                        <button class="overlayIconBtns">
+                          <img
+                            src="Assets/bookmark_check_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                          />
+                        </button>
+
+                        <button class="overlayIconBtns">
+                          <img
+                            src="Assets/share_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                          />
+                        </button>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <h2>Blood Contract</h2>
+              </div>
+            </div>
+
+            <div class="dramaContainer">
+              <div class="wrapper">
+                <div class="cardArea">
+                  <div class="card">
+                    <img src="Assets/BloodContract_new.jpg" />
+                    <div class="overlay">
+                      <h3>Blood Contract</h3>
+                      <p>this is the game of blood</p>
+
+                      <span class="overlayBtns">
+                        <button id="playBtn">
+                          <img
+                            src="Assets/play_circle_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                          />
+                          <span id="playSpn"> Play</span>
+                        </button>
+
+                        <button class="overlayIconBtns">
+                          <img
+                            src="Assets/bookmark_check_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                          />
+                        </button>
+
+                        <button class="overlayIconBtns">
+                          <img
+                            src="Assets/share_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                          />
+                        </button>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <h2>Blood Contract</h2>
+              </div>
+            </div>
+
+            <div class="dramaContainer">
+              <div class="wrapper">
+                <div class="cardArea">
+                  <div class="card">
+                    <img src="Assets/BloodContract_new.jpg" />
+                    <div class="overlay">
+                      <h3>Blood Contract</h3>
+                      <p>this is the game of blood</p>
+
+                      <span class="overlayBtns">
+                        <button id="playBtn">
+                          <img
+                            src="Assets/play_circle_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                          />
+                          <span id="playSpn"> Play</span>
+                        </button>
+
+                        <button class="overlayIconBtns">
+                          <img
+                            src="Assets/bookmark_check_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                          />
+                        </button>
+
+                        <button class="overlayIconBtns">
+                          <img
+                            src="Assets/share_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                          />
+                        </button>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <h2>Blood Contract</h2>
+              </div>
+            </div>
+
+            <div class="dramaContainer">
+              <div class="wrapper">
+                <div class="cardArea">
+                  <div class="card">
+                    <img src="Assets/BloodContract_new.jpg" />
+                    <div class="overlay">
+                      <h3>Blood Contract</h3>
+                      <p>this is the game of blood</p>
+
+                      <span class="overlayBtns">
+                        <button id="playBtn">
+                          <img
+                            src="Assets/play_circle_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                          />
+                          <span id="playSpn"> Play</span>
+                        </button>
+
+                        <button class="overlayIconBtns">
+                          <img
+                            src="Assets/bookmark_check_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                          />
+                        </button>
+
+                        <button class="overlayIconBtns">
+                          <img
+                            src="Assets/share_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png"
+                          />
+                        </button>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <h2>Blood Contract</h2>
               </div>
             </div>
           </div>
-          <h2>The Crown</h2>
         </div>
       </div>
-           <div class="dramaContainer">
-        <div class="wrapper">
-          <div class="cardArea">
-            <div class="card">
-              <img src="Assets/Hidden-Agenda_new.jpg" >
-              <div class="overlay">
-                <h3>Hidden Agenda</h3>
-                <p>this is the game of blood</p>
-
-                 <span class="overlayBtns">
-                  <button id="playBtn"><img src="Assets/play_circle_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" > <span id="playSpn"> Play</span></button>
-
-                <button class="overlayIconBtns"><img src="Assets/bookmark_check_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" ></button>
-
-                <button class="overlayIconBtns"><img src="Assets/share_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" ></button>
-                </span>
-
-              </div>
-            </div>
-          </div>
-          <h2>Hidden Agenda</h2>
-        </div>
-      </div>
-           <div class="dramaContainer">
-        <div class="wrapper">
-          <div class="cardArea">
-            <div class="card">
-              <img src="Assets/Mysterious_Murder_new.jpg" >
-              <div class="overlay">
-                <h3>Mysterious</h3>
-                <p>this is the game of blood</p>
-
-                 <span class="overlayBtns">
-                  <button id="playBtn"><img src="Assets/play_circle_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" > <span id="playSpn"> Play</span></button>
-
-                <button class="overlayIconBtns"><img src="Assets/bookmark_check_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" ></button>
-
-                <button class="overlayIconBtns"><img src="Assets/share_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" ></button>
-                </span>
-
-
-              </div>
-            </div>
-          </div>
-          <h2>Mysterious Muder</h2>
-        </div>
-      </div>
-           <div class="dramaContainer">
-        <div class="wrapper">
-          <div class="cardArea">
-            <div class="card">
-              <img src="Assets/Crown_new.jpg" >
-              <div class="overlay">
-                <h3>The Crown</h3>
-                <p>this is the game of blood</p>
-
-                 <span class="overlayBtns">
-                  <button id="playBtn"><img src="Assets/play_circle_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" > <span id="playSpn"> Play</span></button>
-
-                <button class="overlayIconBtns"><img src="Assets/bookmark_check_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" ></button>
-
-                <button class="overlayIconBtns"><img src="Assets/share_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" ></button>
-                </span>
-
-
-              </div>
-            </div>
-          </div>
-          <h2>The Crown</h2>
-        </div>
-      </div>
-           <div class="dramaContainer">
-        <div class="wrapper">
-          <div class="cardArea">
-            <div class="card">
-              <img src="Assets/Mysterious_Murder_new.jpg" >
-              <div class="overlay">
-                <h3>The Crown</h3>
-                <p>this is the game of blood</p>
-
-                 <span class="overlayBtns">
-                  <button id="playBtn"><img src="Assets/play_circle_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" > <span id="playSpn"> Play</span></button>
-
-                <button class="overlayIconBtns"><img src="Assets/bookmark_check_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" ></button>
-
-                <button class="overlayIconBtns"><img src="Assets/share_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" ></button>
-                </span>
-
-
-              </div>
-            </div>
-          </div>
-          <h2>The Crown</h2>
-        </div>
-      </div>
-           <div class="dramaContainer">
-        <div class="wrapper">
-          <div class="cardArea">
-            <div class="card">
-              <img src="Assets/BloodContract_new.jpg" >
-              <div class="overlay">
-                <h3>Blood Contract</h3>
-                <p>this is the game of blood</p>
-
-                 <span class="overlayBtns">
-                  <button id="playBtn"><img src="Assets/play_circle_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" > <span id="playSpn"> Play</span></button>
-
-                <button class="overlayIconBtns"><img src="Assets/bookmark_check_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" ></button>
-
-                <button class="overlayIconBtns"><img src="Assets/share_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" ></button>
-                </span>
-
-
-              </div>
-            </div>
-          </div>
-          <h2>Blood Contract</h2>
-        </div>
-      </div>
-
-      <div class="dramaContainer">
-        <div class="wrapper">
-          <div class="cardArea">
-            <div class="card">
-              <img src="Assets/BloodContract_new.jpg" >
-              <div class="overlay">
-                <h3>Blood Contract</h3>
-                <p>this is the game of blood</p>
-
-                 <span class="overlayBtns">
-                  <button id="playBtn"><img src="Assets/play_circle_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" > <span id="playSpn"> Play</span></button>
-
-                <button class="overlayIconBtns"><img src="Assets/bookmark_check_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" ></button>
-
-                <button class="overlayIconBtns"><img src="Assets/share_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" ></button>
-                </span>
-
-
-              </div>
-            </div>
-          </div>
-          <h2>Blood Contract</h2>
-        </div>
-      </div>
-
-      <div class="dramaContainer">
-        <div class="wrapper">
-          <div class="cardArea">
-            <div class="card">
-              <img src="Assets/BloodContract_new.jpg" >
-              <div class="overlay">
-                <h3>Blood Contract</h3>
-                <p>this is the game of blood</p>
-
-                 <span class="overlayBtns">
-                  <button id="playBtn"><img src="Assets/play_circle_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" > <span id="playSpn"> Play</span></button>
-
-                <button class="overlayIconBtns"><img src="Assets/bookmark_check_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" ></button>
-
-                <button class="overlayIconBtns"><img src="Assets/share_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" ></button>
-                </span>
-
-
-              </div>
-            </div>
-          </div>
-          <h2>Blood Contract</h2>
-        </div>
-      </div>
-
-      <div class="dramaContainer">
-        <div class="wrapper">
-          <div class="cardArea">
-            <div class="card">
-              <img src="Assets/BloodContract_new.jpg" >
-              <div class="overlay">
-                <h3>Blood Contract</h3>
-                <p>this is the game of blood</p>
-
-                 <span class="overlayBtns">
-                  <button id="playBtn"><img src="Assets/play_circle_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" > <span id="playSpn"> Play</span></button>
-
-                <button class="overlayIconBtns"><img src="Assets/bookmark_check_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" ></button>
-
-                <button class="overlayIconBtns"><img src="Assets/share_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" ></button>
-                </span>
-
-
-              </div>
-            </div>
-          </div>
-          <h2>Blood Contract</h2>
-        </div>
-      </div>
-
-      <div class="dramaContainer">
-        <div class="wrapper">
-          <div class="cardArea">
-            <div class="card">
-              <img src="Assets/BloodContract_new.jpg" >
-              <div class="overlay">
-                <h3>Blood Contract</h3>
-                <p>this is the game of blood</p>
-
-                 <span class="overlayBtns">
-                  <button id="playBtn"><img src="Assets/play_circle_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" > <span id="playSpn"> Play</span></button>
-
-                <button class="overlayIconBtns"><img src="Assets/bookmark_check_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" ></button>
-
-                <button class="overlayIconBtns"><img src="Assets/share_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" ></button>
-                </span>
-
-
-              </div>
-            </div>
-          </div>
-          <h2>Blood Contract</h2>
-        </div>
-      </div>
-
-    </div> 
-</div>
-  </div>
-    </div>
-  </div>
 
       <div class="section3">
         <div class="bgLight"></div>
+
         <div class="textContainer">
           <h3>Start Watching</h3>
-          <p>Download DramaFlicks and start your journey into gripping storytelling today!</p>
+          <p>
+            Download DramaFlicks and start your journey into gripping
+            storytelling today!
+          </p>
+
           <div class="svg">
             <div class="svg2">
-              <img src="Assets/play store.png" >
+              <img src="Assets/play store.png" />
             </div>
             <div class="svg1">
-              <img src="Assets/app store.png" >
+              <img src="Assets/app store.png" />
             </div>
           </div>
         </div>
+
         <div class="imgRight">
-          <img  src="Assets/watchDramaFlicks.webp">
+          <img src="Assets/watchDramaFlicks.webp" />
         </div>
       </div>
 
       <div class="aboutSection">
-
         <div class="aboutContainer">
-
           <div class="imgCnt">
-          <img src="Assets/aboutDrama.webp" alt="">
-         </div>
+            <img src="Assets/aboutDrama.webp" alt="" />
+          </div>
 
-         <div class="aboutText">
-           <h2>About DramaFlicks</h2>
-           <p>DramaFlicks brings you the best short drama series, perfect for quick entertainment anytime, anywhere. Dive into captivating stories, binge-watch in minutes, and enjoy seamless streaming on the go. Whether you're into romance, thrillers, or suspenseful twists, DramaFlicks has a growing collection of gripping stories to keep you hooked.</p>
-         </div>
-
+          <div class="aboutText">
+            <h2>About DramaFlicks</h2>
+            <p>
+              DramaFlicks brings you the best short drama series, perfect for
+              quick entertainment anytime, anywhere. Dive into captivating
+              stories, binge-watch in minutes, and enjoy seamless streaming on
+              the go. Whether you're into romance, thrillers, or suspenseful
+              twists, DramaFlicks has a growing collection of gripping stories
+              to keep you hooked.
+            </p>
+          </div>
         </div>
       </div>
-
-      
     </main>
     <!-- footer section... -->
     <footer>
       <div class="footerSection">
-
         <div class="footerContent">
           <div class="footerLogo">
-            <img src="Assets/Logo_new.webp" >
+            <img src="Assets/Logo_new.webp" />
           </div>
 
           <div class="iconBtns">
-            <button><img src="Assets/facebook.png"></button>
-            <button><img src="Assets/insta.png"></button>
-            <button><img src="Assets/yt.png"></i></button>
-           
+            <button><img src="Assets/facebook.png" /></button>
+            <button><img src="Assets/insta.png" /></button>
+            <button><img src="Assets/yt.png" /></button>
           </div>
 
           <div class="footerText">
-            <p>Where every tap unlocks twists, emotions, and wild storylines. <br> DramaFlicks is your fast-track to bingeable drama.</p>
+            <p>
+              Where every tap unlocks twists, emotions, and wild storylines.
+              <br />
+              DramaFlicks is your fast-track to bingeable drama.
+            </p>
           </div>
 
-          <br> <br> 
+          <br />
+          <br />
 
-          <hr>
-          <br>
+          <hr />
+          <br />
 
           <div class="copyRight">
             <p>Copyright © 2025 <p2>AppSmartz</p2>. All rights reserved.</p>
-          <p>Privacy Policy | Terms of Use</p>
+            <p>Privacy Policy | Terms of Use</p>
           </div>
-          
         </div>
-
       </div>
     </footer>
 
