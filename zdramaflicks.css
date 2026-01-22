@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+
 }
 
 body {
@@ -199,6 +201,7 @@ body {
 }
 
 .sideNavBar ul li a {
+  display: block;
   text-decoration: none;
   color: #ffffff;
   font-family: "Inter", sans-serif;
