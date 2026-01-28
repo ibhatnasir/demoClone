@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DramaFlicks Search</title>
+    <link rel="stylesheet" href="zdramaflicks.css">
+    <link rel="stylesheet" href="zdramaflicksmedia.css">
+    <link rel="stylesheet" href="zScearchMedia.css">
+    <link rel="stylesheet" href="zLogin.css">
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="fonts.googleapis.com" rel="stylesheet">
+
+    <link
+     rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    
+</head>
+<body>
+          <div class="navBar">
+        <div class="logoImg">
+          <img src="Assets/Logo_new.webp" alt="Logo" />
+        </div>
+
+        <div class="navLinks hideOnMobile">
+          <ul >
+            <li class="hideOnMobile"><a href="#">Watch Now</a></li>
+            <li class="hideOnMobile"><a href="#">Continue Watiching</a></li>
+            <li class="hideOnMobile"><a href="#">Saved List</a></li>
+            <li class="hideOnMobile"><a href="#">Premium</a></li>
+
+          </ul>
+          
+        </div>
+
+        <div class="navBtns ">
+          <button class="find"><a aria-label="search" type="submit" href="zSearch.html"><img src="Assets/megGlass.png" /></a> </button>
+
+          <span class="hideOnMobile btnsHideOnMobile">
+
+            <button class="navbtn , hideOnMobile" id="loginBtn">
+              <img src="Assets/Group 54979.png" />Sign In
+            </button>
+            
+            <button class="navbtn , hideOnMobile" id="getAppBtn">Get App</button>
+          </span>
+
+          <span id="manuBtn" onclick="showSidebar()"><i class="fa-solid fa-bars"></i></span>
+        </div>
+      </div>
+
+      <!-- nav side bar -->
+      <div class="sideBarContainer">
+      
+       <div class="sideNavBar" id="sideNavBar">
+          <ul>
+            <span id="closeBtn" onclick="hideSidebar()"><i class="fa-solid fa-angle-right"></i></span>
+            <li><a href="#">Watch Now</a></li>
+            <li><a href="#">Continue Watiching</a></li>
+            <li><a href="#">Saved List</a></li>
+            <li><a href="#">Premium</a></li>
+
+          </ul>
+          
+        </div>
+        <div class="btnsContainer">
+
+          <div class="navBtns">
+            <button class="navbtn" id="loginBtn">
+              <img src="Assets/Group 54979.png" />Sign In
+            </button>
+          </div>
+          <div>
+  
+            <button class="navbtn" id="getAppBtn">Get App</button>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Search hero section  -->
+
+
+      <section class="Search-heroSection">
+        <div class="heroSectionContainer">
+          <img class="Search-heroImg" src="Assets/banner.webp" alt="Banner" />
+
+        <div class="LoginContainer">
+          <h1>Welcome to DramaFlicks</h1>
+
+          <form action="Sign in " class="SignInForm">
+            <label for="email" id="l-email">
+                <img src="Assets/email.png" >
+                <input type="email" id="email" name="email" placeholder="Email Address" required>
+            </label>
+
+            <label for="password" id="l-password">
+                <img src="Assets/password.png" >
+                <input type="password" id="password" name="password" placeholder="Password" required>
+            </label>
+
+            <div class="forgot">
+                <p>forgot password</p>
+                <button class="sinUp"> Sign In</button>
+            </div>
+
+          </form>
+
+
+        </div>
+
+        </div>
+      </section>
+
+
+        <!-- footer section... -->
+    <footer>
+      <div class="footerSection">
+
+        <div class="footerContent">
+          <div class="footerLogo">
+            <img src="Assets/Logo_new.webp" >
+          </div>
+
+          <div class="iconBtns">
+            <button><img src="Assets/facebook.png"></button>
+            <button><img src="Assets/insta.png"></button>
+            <button><img src="Assets/yt.png"></i></button>
+           
+          </div>
+
+          <div class="footerText">
+            <p>Where every tap unlocks twists, emotions, and wild storylines. <br> DramaFlicks is your fast-track to bingeable drama.</p>
+          </div>
+
+          <br> <br> 
+
+          <hr>
+          <br>
+
+          <div class="copyRight">
+            <p>Copyright © 2025 <p2>AppSmartz</p2>. All rights reserved.</p>
+          <p>Privacy Policy | Terms of Use</p>
+          </div>
+          
+        </div>
+
+      </div>
+    </footer>
+
+
+ <script src="zdramaflicks.js"></script>
+</body>
+</html>

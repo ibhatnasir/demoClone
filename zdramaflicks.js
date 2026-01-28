@@ -31,3 +31,7 @@ let preLoader = document.querySelector(".preLoader");
 window.addEventListener("load", function () {
   preLoader.style.display = "none";
 });
+
+function displayLogin() {
+  window.location.href = "zLogin.html";
+}

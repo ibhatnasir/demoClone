@@ -271,7 +271,7 @@
   }
 
   .card:hover .overlay {
-    height: 50%;
+    height: 60%;
   }
 
   .overlay h3 {
