@@ -7,6 +7,7 @@
 body {
   background-color: #0f0f0f;
   color: #ffffff;
+  scroll-behavior: smooth;
 }
 
 .heroSectionContainer {
@@ -26,17 +27,18 @@ body {
 
 .LoginContainer {
   width: 500px;
-  height: 800px;
+  height: 600px;
   background-color: #000000;
   border-radius: 10px;
-  border: 2px solid #ffffff;
+  border: 1px solid #807e7e;
   position: absolute;
   z-index: 99;
 }
 
 .LoginContainer h1 {
-  text-align: center;
-  padding-top: 20px;
+  text-align: start;
+  padding-left: 50px;
+  padding-top: 50px;
   font-size: 25px;
   font-weight: bold;
   color: #ffffff;
@@ -149,5 +151,86 @@ body {
 
 .sinUp:hover {
   color: #e21220;
-  border: 1px solid #e21220;
+}
+
+.account{
+    margin-top: 20px;
+}
+
+.account p{
+    text-align: center;
+    line-height: 1.5;
+  font-size: large;
+  font-family: "Inter", sans-serif;
+}
+
+.account a{
+    color: #e21220;
+    cursor: pointer;
+}
+
+.accountLinks{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap :10px;
+}
+
+.link{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(44, 27, 27);
+    border-radius: 10px;
+    border: none;
+    outline: 1px solid rgb(104, 102, 98);
+    gap: 10px;
+}
+.terms{
+    width: 80%;
+    gap: 10px;
+    margin-top: 50px;
+    
+
+}
+
+.terms label{
+    width: 80%;
+    display: ruby;
+    width: 100%;
+}
+
+.terms p{
+  font-size: 11px;
+  font-family: "Inter", sans-serif;
+
+
+}
+
+.terms a{
+    color: #e21220;
+
+}
+
+.terms input{
+    border-color: #e21220;
+}
+
+
+/* media qurries */
+
+@media (max-width: 768px){
+
+    .LoginContainer {
+        width: 90%;
+        top: 100px;
+    }
+
+    .LoginContainer h1{
+        font-size: 15px;
+        padding-left: 40px;
+        padding-top: 30px;
+    }
+
+
+
 }
