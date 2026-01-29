@@ -35,7 +35,7 @@ main {
     overflow-y: hidden;
     scroll-behavior: smooth;
     width: 95%;
-    margin-left: 30px;
+    margin-left: 25px;
 }
 
 @media (max-width: 768px) {
