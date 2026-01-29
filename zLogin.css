@@ -28,7 +28,7 @@ body {
 
 .LoginContainer {
   width: 500px;
-  height: 600px;
+  height: 580px;
   background-color: #000000;
   border-radius: 10px;
   border: 1px solid #807e7e;
@@ -237,11 +237,11 @@ footer {
 @media (max-width: 768px) {
   .LoginContainer {
     width: 90%;
-    top: 100px;
+    top: 50px;
   }
 
   .LoginContainer h1 {
-    font-size: 15px;
+    font-size: 20px;
     padding-left: 40px;
     padding-top: 30px;
   }
