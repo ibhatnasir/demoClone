@@ -142,13 +142,7 @@
   }
 
   .bgLight {
-    position: absolute;
-    background: #d51320;
-    filter: blur(100px);
-    z-index: 0;
-    height: 150px;
-    width: 200px;
-    left: 50px;
+    display: none;
   }
 
   .textContainer {
