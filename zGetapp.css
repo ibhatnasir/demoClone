@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0f0f0f;
+  color: #ffffff;
+  scroll-behavior: smooth;
+}
+
+.getApptagline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  left: 100px;
+  top: 170px;
+  z-index: 1;
+  gap: 60px;
+}
+
+.getApptagline h1 {
+  font-family: "Alatsi", sans-serif;
+  font-weight: 800;
+  font-size: 35px;
+  line-height: normal;
+}
+
+.getApptagline span {
+  color: #e21220;
+}
+
+.qrCode {
+  height: 250px;
+  width: 250px;
+}
+
+.qrCode img {
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+}
+
+.tags {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+#discoverBtn {
+  height: 25px;
+  width: auto;
+  padding: 5px;
+  color: #0f0f0f;
+  background-color: #797878;
+  border: none;
+  border-radius: 5px;
+}
+
+.tags button {
+  height: 25px;
+  width: auto;
+  padding: 5px;
+  color: #0f0f0f;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  font-family: "Inter", sans-serif;
+}
+
+@media (max-width: 768px) {
+  .getApptagline {
+    left: 30px;
+    top: 65px;
+    gap: 25px;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .getApptagline h1 {
+    font-family: "Alatsi", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: normal;
+  }
+
+  .qrCode {
+    height: 150px;
+    width: 150px;
+  }
+
+  .tags {
+    display: none;
+  }
+}

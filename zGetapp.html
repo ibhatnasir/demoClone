@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get app</title>
+
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drama Flicks</title>
+    <link rel="stylesheet" href="zdramaflicks.css" />
+    <link rel="stylesheet" href="zdramaflicksmedia.css" />
+    <link rel="stylesheet" href="zGetapp.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="fonts.googleapis.com" rel="stylesheet" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+
+</head>
+<body>
+    
+    <header>
+      <div class="navBar">
+        <div class="logoImg">
+          <img src="Assets/Logo_new.webp" alt="Logo" />
+        </div>
+
+        <div class="navLinks hideOnMobile">
+          <ul>
+            <li class="hideOnMobile"><a href="zWatchNow.html">Watch Now</a></li>
+            <li class="hideOnMobile">
+              <a href="zContinueWatching.html">Continue Watiching</a>
+            </li>
+            <li class="hideOnMobile"><a href="zMyList.html">Saved List</a></li>
+            <li class="hideOnMobile"><a href="zPremium.html">Premium</a></li>
+            <li class="hideOnMobile"><a href="zRewards.html">Rewards</a></li>
+          </ul>
+        </div>
+
+        <div class="navBtns">
+          <button class="find">
+            <a aria-label="search" type="submit" href="zSearch.html"
+              ><img src="Assets/megGlass.png"
+            /></a>
+          </button>
+
+          <span class="hideOnMobile btnsHideOnMobile">
+            <button class="navbtn , hideOnMobile" id="loginBtn" onclick="displayLogin()">
+              <img src="Assets/Group 54979.png" /> Sign In
+            </button>
+
+            <button class="navbtn , hideOnMobile" id="getAppBtn">
+              Get App
+            </button>
+          </span>
+
+          <span id="manuBtn" onclick="showSidebar()"
+            ><i class="fa-solid fa-bars"></i
+          ></span>
+        </div>
+      </div>
+
+      <!-- nav side bar -->
+      <div class="sideBarContainer">
+        <div class="sideNavBar" id="sideNavBar">
+          <ul>
+            <span id="closeBtn" onclick="hideSidebar()"
+              ><i class="fa-solid fa-angle-right"></i
+            ></span>
+            <li><a href="zWatchNow.html">Watch Now</a></li>
+            <li><a href="zContinueWatching.html">Continue Watiching</a></li>
+            <li><a href="zMyList.html">Saved List</a></li>
+            <li><a href="zPremium.html">Premium</a></li>
+            <li><a href="zRewards.html">Rewards</a></li>
+          </ul>
+        </div>
+        <div class="btnsContainer">
+          <div class="navBtns">
+            <button class="navbtn" id="loginBtn" onclick="displayLogin()" >
+              <img src="Assets/Group 54979.png" /> Sign In
+            </button>
+          </div>
+          <div>
+            <button class="navbtn" id="getAppBtn">Get App</button>
+          </div>
+        </div>
+      </div>
+      <!-- // nav side bar end -->
+
+      <section class="heroSection">
+        <div class="heroSectionContainer">
+          <img class="heroImg" src="Assets/banner.webp" alt="Banner" />
+
+          <div class="getApptagline">
+            <h1>
+             Binge the Best Short Dramas on DramaFlicks. <br>
+              <span>Scan the QR code to download the app now.</span>
+            </h1>
+            <div class="qrCode">
+              <img src="Assets/qr code.png" >
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <div class="tags">
+
+      <button id="discoverBtn">Discover more</button>
+      <button>get app</button>
+      <button>AppSmartz</button>
+      <button>Short Drama TV - DramaFlicks</button>
+      <button>DramaFlicks</button>
+      <button>Mobile app</button>
+      <button>Entertainment center</button>
+
+
+    </div>
+
+      <footer>
+      <div class="footerSection">
+        <div class="footerContent">
+          <div class="footerLogo">
+            <img src="Assets/Logo_new.webp" />
+          </div>
+
+          <div class="iconBtns">
+            <button><img src="Assets/facebook.png" /></button>
+            <button><img src="Assets/insta.png" /></button>
+            <button><img src="Assets/yt.png" /></button>
+          </div>
+
+          <div class="footerText">
+            <p>
+              Where every tap unlocks twists, emotions, and wild storylines.
+              <br />
+              DramaFlicks is your fast-track to bingeable drama.
+            </p>
+          </div>
+
+          <br />
+          <br />
+
+          <hr />
+          <br />
+
+          <div class="copyRight">
+            <p>Copyright © 2025 <p2>AppSmartz</p2>. All rights reserved.</p>
+            <p>Privacy Policy | Terms of Use</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>
