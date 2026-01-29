@@ -35,3 +35,8 @@ window.addEventListener("load", function () {
 function displayLogin() {
   window.location.href = "zLogin.html";
 }
+
+function displayGetapp() {
+  window.location.href = "zGetapp.html";
+}
+
